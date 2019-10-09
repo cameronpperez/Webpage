@@ -1,0 +1,147 @@
+body {
+	background: lightgrey;
+	color: black;
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	background: white;
+	/* background-image: url("images/fasafiesta-1.jpg"); */  
+	background-size: 100%;
+	background-position: center;
+	background: blur;
+	padding: 20px;
+	height: 400px;
+}
+
+/* RESPONSIVE RULES */
+
+
+#travel {
+	text-align: center;
+	background: lightblue;
+	background-image: url("images/travels_revised.png");
+	background-size: 100%;
+	background-position: center;
+	background: blur;
+	padding: 20px;
+	height: 400px;
+}
+
+#food {
+	text-align: center;
+	background: lightblue;
+	background-image: url("images/food-1.png");
+	background-size: 100%;
+	background-position: center;
+	background: blur;
+	padding: 20px;
+	height: 400px;
+}
+header a {
+	margin: auto;
+	padding: 5px;
+	background: darkgrey;
+	border-radius: 10%;
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	text-decoration: underline;
+	background: lightblue;
+}
+
+header p {
+	margin: auto;
+	padding: 50px;
+}
+
+nav ul {
+	margin: auto;
+	padding: 0;
+	list-style-type: none
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+}
+
+.mains {
+	background: lightgrey;
+	padding: 15px;
+	display: flex;
+	/* flex displays an inline block type display */
+	flex-wrap: wrap;
+	height: 400px;
+}
+
+.mains figure {
+	margin: auto;
+	/* display: inline-block -> no need since parent section has 
+	dispaly: flex; */
+	width: 300px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.mains figure img {
+	border: 2px solid white;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+}
+
+.mains figure figcaption a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.mains figure figcaption a:hover {
+	text-decoration: underline;
+}
+
+section {
+	background: white;
+	padding: 20px;
+	display: flex;
+	/* flex displays an inline block type display */
+}
+
+div {
+	margin: auto;
+	/* display: inline-block -> no need since parent section has 
+	dispaly: flex; */
+	width: 100px;
+	height: 50px;
+}
+
+.second {
+	background: white;
+	padding: 0px;
+	margin: 0px;
+	height: 200px;
+
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 715px) {
+	.mains {
+		di
+	}
+}
+
+footer {
+	background: white;
+	padding: 10px 20px;
+	color: black;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 12px;
+}
